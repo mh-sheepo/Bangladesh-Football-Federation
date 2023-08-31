@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.PresidentDashboardController">
+   <children>
+      <ImageView blendMode="OVERLAY" fitHeight="584.0" fitWidth="721.0" layoutX="-14.0" opacity="0.15" style="-fx-background-color: #ffe0b2;">
+         <image>
+            <Image url="@Bafufe%20Logo.png" />
+         </image>
+              </ImageView>
+      <Label layoutX="206.0" layoutY="58.0" prefHeight="32.0" prefWidth="338.0" text="Bangladesh Football Federation" wrapText="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button focusTraversable="false" layoutX="257.0" layoutY="257.0" mnemonicParsing="false" onAction="#manageEmployeesButton" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="Manage Employees" />
+      <Button focusTraversable="false" layoutX="257.0" layoutY="289.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="View Reports" />
+      <Button focusTraversable="false" layoutX="257.0" layoutY="323.0" mnemonicParsing="false" onAction="#generalnotice" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="Generral Notice" />
+      <Button focusTraversable="false" layoutX="257.0" layoutY="358.0" mnemonicParsing="false" onAction="#createmeeting" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="Create Meeting" />
+      <Button focusTraversable="false" layoutX="257.0" layoutY="391.0" mnemonicParsing="false" onAction="#viewagreement" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="View Agreements" />
+      <Button focusTraversable="false" layoutX="257.0" layoutY="423.0" mnemonicParsing="false" onAction="#createmonthlyspeech" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="Create Monthly Speech" />
+      <Button focusTraversable="false" layoutX="258.0" layoutY="456.0" mnemonicParsing="false" onAction="#assigntrainingprogram" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="Assign Training Program" />
+      <Button focusTraversable="false" layoutX="258.0" layoutY="487.0" mnemonicParsing="false" onAction="#playerList" prefHeight="25.0" prefWidth="195.0" style="-fx-background-color: #ffe0b2;" text="Player List" />
+      <Button focusTraversable="false" layoutX="298.0" layoutY="545.0" mnemonicParsing="false" onAction="#newsignupdataId" style="-fx-background-color: #ffe0b2;" text="New Sign Up Data" />
+      <Line endX="100.0" layoutX="354.0" layoutY="532.0" startX="-100.0" />
+      <Button layoutX="22.0" layoutY="22.0" mnemonicParsing="false" onAction="#logoutButton" style="-fx-background-radius: 10; -fx-background-color: #F0E68C;" text="Logout">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

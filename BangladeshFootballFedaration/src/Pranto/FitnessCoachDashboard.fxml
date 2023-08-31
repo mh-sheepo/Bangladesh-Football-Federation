@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pranto.FitnessCoachDashboardController">
+   <children>
+      <ImageView blendMode="OVERLAY" fitHeight="613.0" fitWidth="716.0" layoutY="-1.0" opacity="0.25">
+         <image>
+            <Image url="@Bafufe%20Logo.png" />
+         </image>
+              </ImageView>
+      <Label layoutX="189.0" layoutY="42.0" prefHeight="32.0" prefWidth="333.0" text="Bangladesh Football Federation" wrapText="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Text layoutX="270.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fitness Coach " wrappingWidth="190.75665283203125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="258.0" layoutY="169.0" mnemonicParsing="false" onAction="#PlayerAssessment" prefHeight="26.0" prefWidth="196.0" text="Player Assessment" />
+      <Button layoutX="259.0" layoutY="241.0" mnemonicParsing="false" onAction="#ViewInjuryPreventionListButton" prefHeight="26.0" prefWidth="196.0" text="View Injury Prevention List" />
+      <Button layoutX="259.0" layoutY="277.0" mnemonicParsing="false" onAction="#Conditioning" prefHeight="26.0" prefWidth="196.0" text="Conditioning" />
+      <Button layoutX="258.0" layoutY="313.0" mnemonicParsing="false" onAction="#StrengthandPowerDevelopment" text="Strength and Power Development" />
+      <Button layoutX="258.0" layoutY="348.0" mnemonicParsing="false" onAction="#RecoveryStrategies" prefHeight="26.0" prefWidth="196.0" text=" Recovery Strategies" />
+      <Button layoutX="259.0" layoutY="205.0" mnemonicParsing="false" onAction="#IndividualizedTrainingPrograms" prefHeight="26.0" prefWidth="196.0" text="Individualized Training Programs" />
+      <Button layoutX="259.0" layoutY="418.0" mnemonicParsing="false" onAction="#DietChart" prefHeight="26.0" prefWidth="196.0" text="Diet Chart" />
+      <Button layoutX="258.0" layoutY="384.0" mnemonicParsing="false" onAction="#FlexibilityandMobility" prefHeight="26.0" prefWidth="196.0" text=" Flexibility and Mobility" />
+      <Button layoutX="258.0" layoutY="454.0" mnemonicParsing="false" onAction="#fcViewNotice" prefHeight="26.0" prefWidth="196.0" text="View Notice" />
+      <Button layoutX="568.0" layoutY="136.0" mnemonicParsing="false" onAction="#logOutfxid" prefHeight="26.0" prefWidth="94.0" text="Log Out" />
+    
+   </children>
+</AnchorPane>

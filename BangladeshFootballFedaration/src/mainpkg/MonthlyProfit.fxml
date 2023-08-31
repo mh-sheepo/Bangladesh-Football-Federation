@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MonthlyProfitController">
+   <children>
+      <TableView fx:id="profitview" layoutX="100.0" layoutY="100.0" prefHeight="200.0" prefWidth="418.0">
+        <columns>
+          <TableColumn fx:id="profit" prefWidth="417.0" text="Profit Amount" />
+        </columns>
+      </TableView>
+      <Label layoutX="248.0" layoutY="64.0" text="Monthly Profit">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="310.0" mnemonicParsing="false" onAction="#view" text="View" />
+      <Button layoutX="79.0" layoutY="310.0" mnemonicParsing="false" onAction="#returntohome" text="Return to home" />
+   </children>
+</AnchorPane>

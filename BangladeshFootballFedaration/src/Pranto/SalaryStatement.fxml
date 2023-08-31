@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pranto.SalaryStatementController">
+   <children>
+      <Text layoutX="228.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary Statement">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="SalaryStatementTextarea" layoutX="10.0" layoutY="61.0" prefHeight="241.0" prefWidth="573.0" />
+      <Button layoutX="233.0" layoutY="313.0" mnemonicParsing="false" onAction="#SalaryStatementViewButton" text="View Salary Statement" />
+      <Button layoutX="512.0" layoutY="352.0" mnemonicParsing="false" onAction="#SalaryStatementBackButton" text="Back" />
+   </children>
+</AnchorPane>

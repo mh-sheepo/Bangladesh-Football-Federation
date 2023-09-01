@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.PlayerListController">
+   <children>
+      <Text layoutX="259.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player List" wrappingWidth="81.201171875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+     
+      <TextArea fx:id="playerlistOutput" editable="false" focusTraversable="false" layoutX="364.0" layoutY="79.0" prefHeight="366.0" prefWidth="223.0" promptText="Added player list!" wrapText="true" />
+      <Button layoutX="398.0" layoutY="452.0" mnemonicParsing="false" onAction="#loadPlayer" style="-fx-background-radius: 10;" text="Load Player" />
+      <PasswordField fx:id="player4" alignment="CENTER" layoutX="146.0" layoutY="166.0" promptText="Enter player name" />
+      <TextField fx:id="player1" alignment="CENTER" layoutX="146.0" layoutY="88.0" promptText="Enter player name" />
+      <TextField fx:id="player3" alignment="CENTER" layoutX="146.0" layoutY="140.0" promptText="Enter player name" />
+      <TextField fx:id="player2" alignment="CENTER" layoutX="146.0" layoutY="114.0" promptText="Enter player name" />
+      <PasswordField fx:id="player8" alignment="CENTER" layoutX="147.0" layoutY="270.0" promptText="Enter player name" />
+      <TextField fx:id="player5" alignment="CENTER" layoutX="147.0" layoutY="192.0" promptText="Enter player name" />
+      <TextField fx:id="player7" alignment="CENTER" layoutX="147.0" layoutY="244.0" promptText="Enter player name" />
+      <TextField fx:id="player6" alignment="CENTER" layoutX="148.0" layoutY="218.0" prefHeight="25.0" prefWidth="149.0" promptText="Enter player name" />
+      <PasswordField fx:id="player11" alignment="CENTER" layoutX="146.0" layoutY="349.0" promptText="Enter player name" />
+      <TextField fx:id="player10" alignment="CENTER" layoutX="146.0" layoutY="323.0" promptText="Enter player name" />
+      <TextField fx:id="player9" alignment="CENTER" layoutX="147.0" layoutY="297.0" promptText="Enter player name" />
+      <Label layoutX="74.0" layoutY="92.0" text="Player 1" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="118.0" text="Player 2" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="144.0" text="Player 3" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="169.0" text="Player 4" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="195.0" text="Player 5" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="221.0" text="Player 6" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="249.0" text="Player 7" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="275.0" text="Player 8" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="300.0" text="Player 9" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="326.0" text="Player 10" textFill="#4103ff" />
+      <Label layoutX="74.0" layoutY="352.0" text="Player 11" textFill="#4103ff" />
+      <Button layoutX="166.0" layoutY="452.0" mnemonicParsing="false" onAction="#addPlayer" style="-fx-background-radius: 10;" text="Add" />
+      <Button focusTraversable="false" layoutX="23.0" layoutY="452.0" mnemonicParsing="false" onAction="#backtoHomepresident" text="Return to Home" />
+      <Line endX="-100.0" endY="349.0" layoutX="425.0" layoutY="88.0" startX="-100.0" />
+      <Button focusTraversable="false" layoutX="490.0" layoutY="452.0" mnemonicParsing="false" onAction="#cleardata" style="-fx-background-radius: 10;" text="Clear Data" />
+   </children>
+</AnchorPane>

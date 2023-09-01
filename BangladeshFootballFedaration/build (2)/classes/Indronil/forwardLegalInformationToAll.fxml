@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="393.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Indronil.ForwardLegalInformationToAllController">
+   <children>
+      <Button layoutX="28.0" layoutY="24.0" mnemonicParsing="false" text="Add Legal Notice Come From FiFA" />
+      <Button layoutX="209.0" layoutY="71.0" mnemonicParsing="false" text="Send" />
+      <Button fx:id="backToHomePage" layoutX="209.0" layoutY="129.0" mnemonicParsing="false" onAction="#backToHomePageOnClick" text="Back To Home Page" />
+   </children>
+</AnchorPane>

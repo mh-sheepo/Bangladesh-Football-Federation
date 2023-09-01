@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pranto.StrengthAndPowerDevelopmentController">
+   <children>
+      <Text layoutX="165.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strength and Power Development">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label layoutX="14.0" layoutY="50.0" text="Player Name" />
+      <TextField fx:id="SPDPlayerName" layoutX="98.0" layoutY="46.0" prefHeight="26.0" prefWidth="337.0" />
+      <Label layoutX="125.0" layoutY="90.0" text="Strength" />
+      <TextArea fx:id="SPDStrength" layoutX="14.0" layoutY="116.0" prefHeight="200.0" prefWidth="269.0" />
+      <TextArea fx:id="SPDPower" layoutX="308.0" layoutY="116.0" prefHeight="200.0" prefWidth="269.0" />
+      <Label layoutX="411.0" layoutY="90.0" text="Power" />
+      <Button layoutX="18.0" layoutY="360.0" mnemonicParsing="false" onAction="#SPDBack" prefHeight="26.0" prefWidth="59.0" text="Back" />
+      <Button layoutX="510.0" layoutY="360.0" mnemonicParsing="false" onAction="#SPDSend" prefHeight="26.0" prefWidth="59.0" text="Send" />
+   </children>
+</AnchorPane>

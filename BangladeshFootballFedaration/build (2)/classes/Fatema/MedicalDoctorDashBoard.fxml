@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fatema.MedicalDoctorDashBoardController">
+   <children>
+      <ImageView blendMode="OVERLAY" fitHeight="564.0" fitWidth="719.0" layoutX="-5.0" layoutY="-4.0" opacity="0.25">
+         <image>
+            <Image url="@Bafufe%20Logo.png" />
+         </image>
+              </ImageView>
+      <Label layoutX="189.0" layoutY="25.0" prefHeight="32.0" prefWidth="333.0" text="Bangladesh Football Federation" wrapText="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="256.0" layoutY="212.0" mnemonicParsing="false" onAction="#GiveAppointmentScheduleFxid" prefHeight="25.0" prefWidth="200.0" text="Give Appointment Schedule" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="256.0" layoutY="253.0" mnemonicParsing="false" onAction="#ViewMatchTimeScheduleFxid" prefHeight="25.0" prefWidth="200.0" text="View  Match Time Schedule " wrapText="true" />
+      <Button layoutX="256.0" layoutY="291.0" mnemonicParsing="false" onAction="#InfoToCoachFxid" prefHeight="25.0" prefWidth="200.0" text="Info To Coach" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="256.0" layoutY="332.0" mnemonicParsing="false" onAction="#SaveMedicalReportHistoryFxid" prefHeight="25.0" prefWidth="200.0" text="Save Medical Report History " textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="256.0" layoutY="369.0" mnemonicParsing="false" onAction="#ViewMedicalReportHistoryFxid" prefHeight="25.0" prefWidth="200.0" text="View Medical Report History " textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="256.0" layoutY="409.0" mnemonicParsing="false" onAction="#FitnessDietChartFxid" prefHeight="25.0" prefWidth="200.0" text="Fitness Diet Chart" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="256.0" layoutY="447.0" mnemonicParsing="false" onAction="#SendNotifyForMonthlyCheckupFxid" prefHeight="25.0" prefWidth="200.0" text="Send Notify For Monthly Checkup" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="256.0" layoutY="487.0" mnemonicParsing="false" onAction="#SendNotifyOfInjuredPlayersFxid" prefHeight="25.0" prefWidth="200.0" text="Send Notify Of Injured Players " textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="601.0" layoutY="123.0" mnemonicParsing="false" onAction="#ViewNoticeFxid" text="View  Notice" wrapText="true" />
+      <Label layoutX="41.0" layoutY="86.0" text="User - Medical Doctor " textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="315.0" layoutY="66.0" text="Dash-Board">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="601.0" layoutY="94.0" mnemonicParsing="false" onAction="#logOutfxid" prefHeight="25.0" prefWidth="83.0" text="Log Out" />
+   </children>
+</AnchorPane>

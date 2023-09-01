@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fatema.ViewMatchTimeScheduleController">
+   <children>
+      <Label layoutX="224.0" layoutY="102.0" text="View Match Time Schedule" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="27.0" prefHeight="27.0" prefWidth="278.0" text="Bangladesh Football Federation" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="76.0" text="User - Medical Doctor " textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="524.0" layoutY="72.0" mnemonicParsing="false" onAction="#ExitButton" prefHeight="25.0" prefWidth="50.0" text="Exit" />
+      <TextArea fx:id="TextFieldArea" layoutX="140.0" layoutY="134.0" prefHeight="200.0" prefWidth="335.0" />
+      <Button layoutX="288.0" layoutY="349.0" mnemonicParsing="false" onAction="#ViewButton" text="View" />
+   </children>
+</AnchorPane>
